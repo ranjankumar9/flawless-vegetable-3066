@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+h4{
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+img{
+    width:200px;
+    height: 80px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:aliceblue;
+}
+#header a{
+    text-decoration: none;
+    color: rgb(165, 160, 160);
+    font-size:25px;
+    font-weight: 500;
+}
+#header a:hover{
+    color: rgb(3, 126, 79);
+}
+#header i{
+    font-size: 30px;
+}
+
+/* body css */
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top:100px;
+}
+form{
+    display: grid;
+    align-items:center;
+    justify-content: center;
+}
+form h3{
+    font-size: 25px;
+    padding-top: 50px;
+}
+form>p{
+    font-size: 25px;
+    margin-top: 18px;
+}
+input[type="text"],input[type="password"]{
+    padding: 10px;
+    width:500px;
+    
+}
+input[type="submit"]{
+    padding:15px;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(88, 144, 88);
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: rgb(6, 65, 6);
+}
+
+
+/* css footer */
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height:500px;
+    margin-top: 100px;
+    
+}
+.col1,.col2,.col3{
+    display: grid;
+    padding: 100px;
+    font-size: 30px;
+    border: 0px solid;
+    
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(120, 116, 116);
+}
+.col4{
+   font-size: 20px;; 
+}
+#int{
+    padding:5px;
+    width:150px;
+}
+#instruct{
+    background-color: aliceblue;
+    padding: 0px 100px;
+}
+#instruct p{
+    border: 1px solid green;
+}

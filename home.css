@@ -1,0 +1,86 @@
+#mid{
+    background-image: url("https://cdn.shopify.com/s/files/1/0399/1728/9633/files/767_x_476_HUSA_NEW_WEB_Carousel_Banners_v7_White_box_x720.jpg?v=16833740420637382474");
+    height: 300px;
+    
+}
+#mid {
+    padding: 200px;
+}
+#mid h2{
+    font-size: 50px;
+    background-color: aliceblue;
+}
+#mid h2+p{
+    font-size: 20px;
+    color: aliceblue;
+}
+#mid  h2+p+button{
+    margin-top: 15px;
+    padding:15px 50px;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+}
+#mid  h2+p+button:hover{
+    background-color: rgb(14, 231, 14);
+    cursor: pointer;
+}
+/* product */
+.col{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+}
+#prod{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 0px;
+}
+#prod div img{
+    height: 300px;
+    width: 300px;
+}
+/* Another Product */
+#prod1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-center;
+    padding: 80px 50px;
+}
+#prod1 img{
+    height: 300px;
+    width:100%;
+}
+#prod1 img+p,p{
+    font-size: 20px;
+}
+#prod1 img+p+p+button{
+    padding: 10px 30px;
+    background-color: rgb(104, 126, 83);
+    color: white;
+    border: none;
+}
+/* description */
+#leaf{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    margin:0px 160px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#leaf div img{
+    width:200px;
+    height: 300px;
+}
+/* images */
+#onward{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 100px;
+}
+#onward div img{
+    width: 300px;
+    height: 300px;
+    
+}
