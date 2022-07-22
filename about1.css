@@ -1,0 +1,30 @@
+#fail{
+    display: flex;
+    gap:30px;
+    padding:0px 50px
+}
+#fail img{
+    width:700px;
+    height: 400px;
+}
+#fail h1{
+    color: teal;
+    font-weight: bold;
+}
+#fail p{
+    font-size: 20px;
+    color: rgb(107, 104, 104);
+}
+
+@media only screen and (max-width:800px){
+    #fail{
+        display:grid;
+        gap:30px;
+        padding:0px 60px
+    }
+    #fail img{
+        width:550px;
+        height: 400px;
+    }
+
+}
