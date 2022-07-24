@@ -1,0 +1,12 @@
+#new{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#new h2{
+    margin-top: 100px;
+    font-size: 40px;
+}
+#new h2+p{
+    font-size: 21px;
+}
