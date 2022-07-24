@@ -1,0 +1,29 @@
+.com{
+    display: flex;
+    gap:30px;
+    padding:30px 80px;
+}
+.com img{
+    width: 650px;
+    height: 400px;
+}
+.com h2{
+    color: teal;
+    font-size: 30px;
+}
+.com p{
+    font-size: 25px;
+    color: rgb(115, 111, 111);
+    margin-top: 30px;
+}
+@media only screen and (max-width:800px){
+    .com{
+        display: grid;
+        gap:30px;
+        padding:30px 40px;
+    }
+    .com img{
+        width: 590px;
+        height: 400px;
+    }
+}

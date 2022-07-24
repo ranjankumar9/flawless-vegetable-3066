@@ -1,0 +1,45 @@
+.d1{
+    display: flex;
+    gap:30px;
+    padding: 20px 60px;
+}
+.d1 img{
+    width:650px;
+    height: 450px;
+}
+.d1 h2{
+    font-size: 30px;
+    color: teal;
+    font-weight: bold;
+}
+.d1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    color:rgb(116, 112, 112);
+}
+#descr{
+    padding: 20px 60px;
+    font-size: 20px;
+    color:rgb(126, 120, 120);
+}
+@media only screen and (max-width:800px){
+    .d1{
+        display: grid;
+        gap:30px;
+        padding: 20px 40px;
+    }
+    .d1 img{
+        width:580px;
+        height: 450px;
+    }
+    .d1 h2{
+        font-size: 30px;
+        color: teal;
+        font-weight: bold;
+    }
+    .d1 p{
+        margin-top: 20px;
+        font-size: 20px;
+        color:rgb(116, 112, 112);
+    }
+}
